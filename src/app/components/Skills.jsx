@@ -1,6 +1,13 @@
-import React from 'react';
+'use client'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Skills() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   const techStack = [
     { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg', name: 'HTML' },
     { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg', name: 'CSS' },
@@ -35,7 +42,7 @@ function Skills() {
       <h1 className="text-center font-bold text-2xl font-sans underline">Currently Using</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 my-11 place-items-center w-[80%]">
         {techStack.map((tech, index) => (
-          <div key={index} className="flex flex-col items-center">
+          <div key={index} className="flex flex-col items-center" data-aos="flip-left">
             <img src={tech.logo} alt={`Logo of ${tech.name}`} className="w-16 h-16 object-contain" />
             <span className="mt-2 font-semibold">{tech.name}</span>
           </div>
@@ -45,7 +52,7 @@ function Skills() {
       <h1 className="mt-10 text-center font-bold text-2xl font-sans underline">Learning Now</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-11 place-items-center w-[80%]">
         {learningStack.map((tech, index) => (
-          <div key={index} className="flex flex-col items-center">
+          <div key={index} className="flex flex-col items-center" data-aos="flip-left">
             <img src={tech.logo} alt={`Logo of ${tech.name}`} className="w-16 h-16 object-contain" />
             <span className="mt-2 font-semibold">{tech.name}</span>
           </div>
@@ -55,7 +62,7 @@ function Skills() {
       <h1 className="mt-10 text-center font-bold text-2xl font-sans underline">Other Skills</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-11 place-items-center w-[80%]">
         {otherSkills.map((skill, index) => (
-          <div key={index} className="flex flex-col items-center">
+          <div key={index} className="flex flex-col items-center" data-aos="flip-left">
             <img src={skill.logo} alt={`Logo of ${skill.name}`} className="w-16 h-16 object-contain" />
             <span className="mt-2 font-semibold">{skill.name}</span>
           </div>
