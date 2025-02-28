@@ -25,39 +25,39 @@ function Skills() {
   ];
 
   return (
-    <div className="min-h-screen w-full bg-gray-200 text-black flex flex-col items-center">
+    <div id="skills" className="min-h-screen w-full bg-gray-200 text-black flex flex-col items-center">
       <div className="py-16 flex justify-center">
         <h1 className="inline px-14 py-3 text-2xl font-serif font-bold text-center border-4 border-black">
           Skills
         </h1>
       </div>
 
-      <h1 className='text-center font-bold text-2xl font-sans'>USING NOW: </h1>
-      <div className='grid grid-cols-4 gap-10 my-11 place-items-center w-[50%]'>
+      <h1 className="text-center font-bold text-2xl font-sans underline">Currently Using</h1>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 my-11 place-items-center w-[80%]">
         {techStack.map((tech, index) => (
-          <div key={index} className='flex flex-col items-center'>
-            <img src={tech.logo} alt={tech.name} className='w-20 h-20 object-contain' />
-            <span className='mt-2 font-semibold'>{tech.name}</span>
+          <div key={index} className="flex flex-col items-center">
+            <img src={tech.logo} alt={`Logo of ${tech.name}`} className="w-16 h-16 object-contain" />
+            <span className="mt-2 font-semibold">{tech.name}</span>
           </div>
         ))}
       </div>
 
-      <h1 className='mt-10 text-center font-bold text-2xl font-sans'>LEARNING: </h1>
-      <div className='grid grid-cols-4 gap-6 my-11 place-items-center w-[50%]'>
+      <h1 className="mt-10 text-center font-bold text-2xl font-sans underline">Learning Now</h1>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-11 place-items-center w-[80%]">
         {learningStack.map((tech, index) => (
-          <div key={index} className='flex flex-col items-center'>
-            <img src={tech.logo} alt={tech.name} className='w-20 h-20 object-contain' />
-            <span className='mt-2 font-semibold'>{tech.name}</span>
+          <div key={index} className="flex flex-col items-center">
+            <img src={tech.logo} alt={`Logo of ${tech.name}`} className="w-16 h-16 object-contain" />
+            <span className="mt-2 font-semibold">{tech.name}</span>
           </div>
         ))}
       </div>
 
-      <h1 className='mt-10 text-center font-bold text-2xl font-sans'>OTHER SKILLS: </h1>
-      <div className='grid grid-cols-4 gap-6 my-11  place-items-center w-[50%]'>
+      <h1 className="mt-10 text-center font-bold text-2xl font-sans underline">Other Skills</h1>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-11 place-items-center w-[80%]">
         {otherSkills.map((skill, index) => (
-          <div key={index} className='flex flex-col items-center'>
-            <img src={skill.logo} alt={skill.name} className='w-20 h-20 object-contain' />
-            <span className='mt-2 font-semibold'>{skill.name}</span>
+          <div key={index} className="flex flex-col items-center">
+            <img src={skill.logo} alt={`Logo of ${skill.name}`} className="w-16 h-16 object-contain" />
+            <span className="mt-2 font-semibold">{skill.name}</span>
           </div>
         ))}
       </div>
