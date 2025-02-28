@@ -17,11 +17,27 @@ export default function SplitScreen() {
         <h1 className="text-4xl md:text-[60px] w-full md:w-[60%] font-bold">Dawood Ayub</h1>
         <cite className="text-gray-700 pt-5">A Frontend Engineer, Web Developer</cite>
 
-        {/* Icons */}
+        {/* Icons with Links */}
         <div className="flex pt-6">
-          <FaLinkedin className="text-3xl md:text-4xl bg-slate-200 ml-3 md:ml-5 rounded-md p-1 hover:text-blue-500 transition-transform transform hover:scale-110 cursor-pointer" />
-          <FaGithub className="text-3xl md:text-4xl bg-slate-200 ml-3 md:ml-5 rounded-md p-1 hover:text-gray-700 transition-transform transform hover:scale-110 cursor-pointer" />
-          <MdOutlineAlternateEmail className="text-3xl md:text-4xl ml-3 md:ml-5 p-1 bg-slate-200 rounded-md hover:text-red-500 transition-transform transform hover:scale-110 cursor-pointer" />
+          <a
+            href="https://www.linkedin.com/in/itsmehardawood/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-3xl md:text-4xl bg-slate-200 ml-3 md:ml-5 rounded-md p-1 hover:text-blue-500 transition-transform transform hover:scale-110 cursor-pointer" />
+          </a>
+          <a
+            href="https://github.com/itsmehardawood"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-3xl md:text-4xl bg-slate-200 ml-3 md:ml-5 rounded-md p-1 hover:text-gray-700 transition-transform transform hover:scale-110 cursor-pointer" />
+          </a>
+          <a
+            href="mailto:mehar.dawood.official@gmail.com"
+          >
+            <MdOutlineAlternateEmail className="text-3xl md:text-4xl ml-3 md:ml-5 p-1 bg-slate-200 rounded-md hover:text-red-500 transition-transform transform hover:scale-110 cursor-pointer" />
+          </a>
         </div>
       </div>
 
