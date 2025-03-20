@@ -12,11 +12,24 @@ const projects = [
     link: "https://github.com/itsmehardawood/Web_School_Project_NextJs.git",
     web: "https://babulislam.vercel.app"
   },
+
+
+  {
+
+    title: "AI Chatbot App ",
+    description:
+      "AI-powered assistant, always ready to chat! Ask questions, get insights, and enjoy a smart conversation.",
+    image: "/images/chatbot.png",
+    link: "https://github.com/itsmehardawood/ai_chatbot_react_app",
+    web: "https://chatbotappreactai.vercel.app"
+
+  },
+
   {
     title: "Portfolio in Next.js & Tailwind CSS",
     description:
       "A responsive portfolio website showcasing projects and skills using Next.js and Tailwind CSS.",
-    image: "https://cache.careers360.mobi/media/article_images/2022/4/20/How-to-make-portfolio-for-design-admission.jpg",
+    image: "/images/portfolio.png",
     link: "https://github.com/itsmehardawood/New_PortFolio.git",
     web: "https://mehardawoodportfolio.vercel.app"
   },
@@ -74,7 +87,7 @@ function Portfolio() {
             <a href={project.link} className="mt-4 px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-700 transition">
               View Project
             </a>
-            <a target="_blank" href={project.web} className="mt-4 px-4 py-2  text-blue-600 rounded-lg hover:text-white hover:bg-blue-500 transition">Link</a>
+            <a target="_blank" href={project.web} className="mt-4 px-4 py-2  text-blue-600 rounded-lg ">Link</a>
           </div>
         ))}
       </div>
