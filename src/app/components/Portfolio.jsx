@@ -13,6 +13,15 @@ const projects = [
     web: "https://babulislam.vercel.app"
   },
 
+  {
+    title: "Movie Mind",
+    description:
+      "A web application for movie recommendations, ratings, descriptions, cast, and suggestions of more movies like that with Responsive Smooth design.",
+    image: "/images/moviemind.png",
+    link: "https://github.com/itsmehardawood/MovieMind",
+    web: "https://moviemindrecommendation.vercel.app"
+  },
+
 
   {
 
