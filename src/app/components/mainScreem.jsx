@@ -15,7 +15,7 @@ export default function SplitScreen() {
       >
         <h2 className="pb-10 font-semibold text-xl pt-14">Hi, I am</h2>
         <h1 className="text-4xl md:text-[60px] w-full md:w-[60%] font-bold">Dawood Ayub</h1>
-        <cite className="text-gray-700 pt-5">A Frontend Engineer, Web Developer</cite>
+        <cite className="text-gray-700 pt-5">A Full Stack Engineer, Web Developer</cite>
 
         {/* Icons with Links */}
         <div className="flex pt-6">

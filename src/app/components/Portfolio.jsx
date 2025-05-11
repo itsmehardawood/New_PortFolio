@@ -5,6 +5,15 @@ import "aos/dist/aos.css";
 
 const projects = [
   {
+    title: "Echo Chatbot",
+    description:
+      "A web application for Assisting businesses 24/7 using AI chatbots support on their Website and Whatsapp. Keeping Track of their inquires ",
+    image: "/images/echochatbot.png",
+    link: "https://github.com/itsmehardawood/Echo_chatbot",
+    web: "https://echo-chatbot-eight.vercel.app/en/login"
+  },
+
+  {
     title: "A School Web App",
     description:
       "A web application for managing school operations efficiently with real-time updates and Responsive Smooth design.",
@@ -93,7 +102,7 @@ function Portfolio() {
             />
             <h3 className="mt-4 text-xl font-bold">{project.title}</h3>
             <p className="text-gray-600 mt-2 text-center">{project.description}</p>
-            <a href={project.link} className="mt-4 px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-700 transition">
+            <a href={project.link} target="_blank" className="mt-4 px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-700 transition">
               View Project
             </a>
             <a target="_blank" href={project.web} className="mt-4 px-4 py-2  text-blue-600 rounded-lg ">Link</a>

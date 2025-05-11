@@ -14,7 +14,7 @@ function AboutMe() {
 
       {/* About Me Paragraph */}
       <p className="text-center mt-8 w-full md:w-[80%] text-gray-700 leading-relaxed">
-        I’m Dawood Ayub, a Full-Stack Web Developer skilled in Next.js, Tailwind CSS, and NestJS, with a passion for 
+        I’m Dawood Ayub, a Full-Stack Web Developer skilled in Next.js, Tailwind CSS, and Python, with a passion for 
         building interactive, scalable, and user-friendly web applications. Currently pursuing a Bachelor’s in Software 
         Engineering at Superior University, Lahore, I’ve worked on real-world projects like a real-time school web app, 
         an ATM Management System, and a Casino Game. With experience in frontend and backend development, I aim to 

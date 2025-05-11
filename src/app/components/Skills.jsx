@@ -15,21 +15,31 @@ function Skills() {
     { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg', name: 'JavaScript' },
     { logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg', name: 'Next.js' },
     { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg', name: 'React.js' },
-    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg', name: 'Git' },
     { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg', name: 'Flutter' },
+    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg', name: 'Python' },
+    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg', name: 'FastAPI' },
+    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg', name: 'MongoDB' },
+    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg', name: 'MySQL' },
+    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg', name: 'PostgreSQL' },
   ];
+  
 
   const learningStack = [
     { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg', name: 'Node.js' },
     { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg', name: 'TypeScript' },
     { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg', name: 'Express.js' },
-    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg', name: 'MongoDB' },
   ];
 
   const otherSkills = [
     { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg', name: 'C++' },
     { logo: 'https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg', name: 'English' },
+    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg', name: 'Git' },
+    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg', name: 'GitHub' },
+    { logo: 'https://cdn.worldvectorlogo.com/logos/jira-1.svg', name: 'Jira' },
+    { logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg', name: 'Figma' }
+
   ];
+  
 
   return (
     <div id="skills" className="min-h-screen w-full bg-gray-200 text-black flex flex-col items-center">
