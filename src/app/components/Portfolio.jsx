@@ -14,6 +14,24 @@ const projects = [
   },
 
   {
+    title: "Arabic Knowledge Base Educational Chatbot",
+    description:
+      "An intelligent AI-powered educational chatbot specialized in Arabic language learning and cultural knowledge. Features interactive lessons, grammar assistance, and cultural insights with real-time conversation capabilities.",
+    image: "/images/arabic.png",
+    link: "https://github.com/itsmehardawood/arabic-knowledge-chatbot",
+    web: "https://arabic-edu-chatbot.vercel.app"
+  },
+
+  {
+    title: "Card Security Scan App",
+    description:
+      "A robust security application that scans and validates debit/credit cards to detect and prevent fraudulent transactions. Features real-time card verification, fraud detection algorithms, and secure transaction processing.",
+    image: "/images/card.png",
+    link: "https://github.com/itsmehardawood/card-security-scanner",
+    web: "https://card-security-app.vercel.app"
+  },
+
+  {
     title: "A School Web App",
     description:
       "A web application for managing school operations efficiently with real-time updates and Responsive Smooth design.",
@@ -31,16 +49,13 @@ const projects = [
     web: "https://moviemindrecommendation.vercel.app"
   },
 
-
   {
-
     title: "AI Chatbot App ",
     description:
       "AI-powered assistant, always ready to chat! Ask questions, get insights, and enjoy a smart conversation.",
     image: "/images/chatbot.png",
     link: "https://github.com/itsmehardawood/ai_chatbot_react_app",
     web: "https://chatbotappreactai.vercel.app"
-
   },
 
   {
@@ -51,28 +66,30 @@ const projects = [
     link: "https://github.com/itsmehardawood/New_PortFolio.git",
     web: "https://mehardawoodportfolio.vercel.app"
   },
+
   {
     title: "ATM Management System",
     description:
       "A secure and user-friendly ATM system for efficient banking transactions.",
     image: "/images/atm.png",
-    link:"/"
+    link: "/"
   },
+
   {
     title: "Casino Game",
     description:
       "An engaging casino game with interactive UI and smooth gameplay mechanics.",
     image: "/images/casino.PNG",
-    link:"/"
+    link: "/"
   },
+
   {
     title: "WhatsApp Clone in Flutter",
     description:
       "A chat application clone with real-time messaging and modern UI design.",
     image: "/images/WA.jpg",
-    link:"/"
-  },
-
+    link: "/"
+  }
 ];
 
 function Portfolio() {
