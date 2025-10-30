@@ -29,7 +29,7 @@ function Navbar() {
     >
       {/* Logo */}
       <div>
-        <Image width="70" height="60" alt="This is the logo" src="/images/logo.png" />
+        <Image width="50" height="60" alt="This is the logo" src="/images/logo.png" />
       </div>
 
       {/* Navbar Links - Desktop */}
